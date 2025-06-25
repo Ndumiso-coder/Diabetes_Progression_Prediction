@@ -44,7 +44,7 @@ The notebook `diabetes_regression_2.ipynb` follows these key steps:
 9. **Model Evaluation**
    - Print the model's intercept and coefficients.
    - Make predictions on the test set.
-   - Evaluate the model using the R-squared metric via `r2_score` from `sklearn.metrics`.
+   - Evaluate the model using the r2_score and RMSE from `sklearn.metrics`.
 
 8. **Documentation**
    - The notebook includes detailed comments explaining each step.
