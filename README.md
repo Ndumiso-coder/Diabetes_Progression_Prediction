@@ -34,7 +34,7 @@ The notebook `diabetes_regression_2.ipynb` follows these key steps:
 
 7. **Data Scaling**
    - Analyze the need for feature scaling.
-   - Apply `MinMaxScaler` and/or `StandardScaler` from `sklearn.preprocessing` as required.
+   - Apply `StandardScaler` from `sklearn.preprocessing` to scele the data.
    - Fit the scaler on the training set and transform both training and test data.
 
 8. **Model Training**
@@ -48,7 +48,7 @@ The notebook `diabetes_regression_2.ipynb` follows these key steps:
 
 8. **Documentation**
    - The notebook includes detailed comments explaining each step.
-   - Outputs like the R-squared value are interpreted and discussed.
+   - Outputs like the R-squared value and RMSE are interpreted and discussed.
 
 ## Requirements
 
@@ -61,6 +61,8 @@ To run this project, make sure the following programming language & packages are
 - Matplotlib          - for basic plotting
 - Seaborn             - for statistical visualisation
 - Jupyter Notebook    - interactive coding environment
+
+- The dataset csv and the jupyter notebook must be on the same folder to use on a VS CODE.
 
 You can install the dependencies using pip:
 pip install pandas numpy scikit-learn matplotlib seaborn notebook
