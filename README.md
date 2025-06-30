@@ -1,7 +1,7 @@
 # Diabetes Progression Prediction using Supervised Learning : Multiple Linear Regression
 
 This repository contains a Jupyter Notebook that performs multiple linear regression on a dataset
-(`diabetes_dirty.csv`), csv dataset has been attached, to predict the progression of diabetes in patients
+(`diabetes_dirty.csv`), csv file dataset has been attached, to predict the progression of diabetes in patients
 based on various medical attributes.
 
 ## Project Description
